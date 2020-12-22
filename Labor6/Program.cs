@@ -10,7 +10,14 @@ namespace Labor6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int n = int.Parse(Console.ReadLine());
+            int q = int.Parse(Console.ReadLine());
+            if (n > q)
+            {
+                Console.WriteLine("YES");
+            }
+            else 
+                Console.WriteLine("NO");
             Console.ReadKey();
         }
     }
